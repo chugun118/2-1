@@ -27,9 +27,7 @@ String lastName = "Chugun";
         //   要素が奇数の場合には「nは奇数です。」と出力されます。
 
         for(int num : arr) {
-        	if(num % 2 !=0) {
-        		System.out.println(num+"は奇数です。");
-        	}
+        	isOdd(num);
             }
     }
     //② 関数を定義しなさい。
